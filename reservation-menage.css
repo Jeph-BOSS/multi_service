@@ -1,0 +1,100 @@
+/* Reset des styles de base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* HEADER */
+
+
+
+/* SECTION - Réservation */
+#reservation {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+#reservation h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+#reservation form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#reservation input, #reservation select, #reservation textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#reservation button {
+    padding: 15px 30px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+#reservation button:hover {
+    background: #0056b3;
+}
+
+/* FORMULAIRE D'INFORMATION */
+.information-section {
+    background: #f0f8ff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.information-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.information-section p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #ffcc00;
+}

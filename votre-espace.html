@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace Client - Multi-Services</title>
+    <link rel="stylesheet" href="espace-client.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>Multi-SERVICES</div>
+        <nav class="nav-links">
+            <ul class="list">
+                <li><a href="espace-client.html">Mon Profil</a></li>
+                <li><a href="services.html">Mes Services</a></li>
+                <li><a href="historique.html">Historique</a></li>
+                <li><a href="messages.html">Messagerie</a></li>
+                <li><a href="paiements.html">Mes Paiements</a></li>
+                <li><a href="logout.html">Se déconnecter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="client-profile">
+        <div class="profile-container">
+            <h1>Bienvenue, [Nom du Client]!</h1>
+            <div class="profile-info">
+                <div class="profile-photo">
+                    <img src="images/photo-client.jpg" alt="Photo du client">
+                </div>
+                <div class="profile-details">
+                    <h2>[Nom du Client]</h2>
+                    <p>Email : client@email.com</p>
+                    <p>Téléphone : +1234567890</p>
+                    <p>Localisation : [Ville, Pays]</p>
+                    <button id="edit-profile-btn">Modifier le Profil</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-actions">
+        <div class="actions-container">
+            <h2>Mes Actions</h2>
+            <div class="action-box">
+                <h3>Mes Services</h3>
+                <p>Consultez les services en cours et gérez vos réservations.</p>
+                <a href="services.html" class="action-link">Voir mes services</a>
+            </div>
+            <div class="action-box">
+                <h3>Historique des Prestations</h3>
+                <p>Consultez l'historique de vos prestations et leurs évaluations.</p>
+                <a href="historique.html" class="action-link">Voir mon historique</a>
+            </div>
+            <div class="action-box">
+                <h3>Messagerie</h3>
+                <p>Contactez le service clientèle en cas de besoin.</p>
+                <a href="messages.html" class="action-link">Voir mes messages</a>
+            </div>
+            <div class="action-box">
+                <h3>Mes Paiements</h3>
+                <p>Consultez vos paiements effectués, factures et devis.</p>
+                <a href="paiements.html" class="action-link">Voir mes paiements</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Multi-Services. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord Administrateur - Multi-Services</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>Multi-SERVICES</div>
+        <nav class="nav-links">
+            <ul class="list">
+                <li><a href="admin-dashboard.html">Tableau de bord</a></li>
+                <li><a href="acceuil.html">Services</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Se déconnecter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="admin-dashboard">
+        <div class="dashboard-container">
+            <h1>Tableau de bord Administrateur</h1>
+            <p>Bienvenue sur le tableau de bord de l'administrateur. Voici la liste des réservations effectuées par les utilisateurs.</p>
+            
+            <table id="reservations">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nom du client</th>
+                        <th>Email</th>
+                        <th>Service réservé</th>
+                        <th>Date de réservation</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Les données de réservation seront insérées ici dynamiquement -->
+                    <tr>
+                        <td>1</td>
+                        <td>Jean Dupont</td>
+                        <td>jean.dupont@email.com</td>
+                        <td>Livraison</td>
+                        <td>28/01/2025</td>
+                        <td><span class="status confirmed">Confirmée</span></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Marie Durand</td>
+                        <td>marie.durand@email.com</td>
+                        <td>Réparation</td>
+                        <td>29/01/2025</td>
+                        <td><span class="status pending">En attente</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Multi-Services. Tous droits réservés.</p>
+        <ul>
+            <li><a href="#terms">Conditions d'utilisation</a></li>
+            <li><a href="#privacy">Politique de confidentialité</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
